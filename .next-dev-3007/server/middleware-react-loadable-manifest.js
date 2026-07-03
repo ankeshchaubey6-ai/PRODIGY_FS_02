@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"components\\\\layout\\\\Header.tsx -> @/components/layout/clerk/AuthUserButton\":{\"id\":\"components\\\\layout\\\\Header.tsx -> @/components/layout/clerk/AuthUserButton\",\"files\":[\"static/chunks/_app-pages-browser_src_components_layout_clerk_AuthUserButton_tsx.js\"]}}"

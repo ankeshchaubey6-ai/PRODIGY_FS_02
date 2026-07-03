@@ -1,0 +1,110 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────
+// ENUMS
+// ─────────────────────────────────────────
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
+enum EmployeeStatus {
+  ACTIVE
+  INACTIVE
+  ON_LEAVE
+  TERMINATED
+}
+
+enum EmploymentType {
+  FULL_TIME
+  PART_TIME
+  CONTRACT
+  INTERN
+}
+
+enum Role {
+  ADMIN
+  HR
+  EMPLOYEE
+}
+
+// ─────────────────────────────────────────
+// DEPARTMENT
+// ─────────────────────────────────────────
+
+model Department {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  color       String?  @default("#6366f1")
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  employees   Employee[] @relation("DepartmentEmployees")
+
+  @@map("departments")
+}
+
+// ─────────────────────────────────────────
+// EMPLOYEE
+// ─────────────────────────────────────────
+
+model Employee {
+  id               String         @id @default(cuid())
+  employeeId       String         @unique  // e.g. EMP-0001
+
+  // Personal info
+  firstName        String
+  lastName         String
+  email            String         @unique
+  phone            String?
+  dob              DateTime?
+  gender           Gender?
+  profileImage     String?
+
+  // Job info
+  departmentId     String
+  department       Department     @relation("DepartmentEmployees", fields: [departmentId], references: [id])
+  designation      String
+  joiningDate      DateTime
+  salary           Decimal        @db.Decimal(12, 2)
+  employmentType   EmploymentType @default(FULL_TIME)
+  status           EmployeeStatus @default(ACTIVE)
+
+  // Manager relationship (self-referential)
+  managerId        String?
+  manager          Employee?      @relation("ManagerSubordinates", fields: [managerId], references: [id])
+  subordinates     Employee[]     @relation("ManagerSubordinates")
+
+  // Additional info
+  address          String?
+  emergencyContact Json?          // { name: string, phone: string, relation: string }
+  notes            String?
+
+  // Clerk user ID (optional — links to auth user)
+  clerkUserId      String?        @unique
+
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  @@index([departmentId])
+  @@index([status])
+  @@index([employmentType])
+  @@index([managerId])
+  @@index([email])
+  @@index([employeeId])
+  @@map("employees")
+}

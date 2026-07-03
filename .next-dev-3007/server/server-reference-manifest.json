@@ -1,0 +1,94 @@
+{
+  "node": {
+    "52599179b5e1c4c2e0af6d19fe55a617d16f29b0": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-in/[[...sign-in]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/employees/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/employees/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/departments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cdepartments%5C%5Cactions.ts%22%2C%5B%22createDepartment%22%2C%22deleteDepartment%22%2C%22updateDepartment%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/settings/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/(dashboard)/employees/page": "action-browser",
+        "app/(dashboard)/employees/new/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/(dashboard)/departments/page": "action-browser",
+        "app/(dashboard)/settings/page": "action-browser"
+      }
+    },
+    "2b27560b8cf44b527ddd86fa959cd54a21be6d60": {
+      "workers": {
+        "app/(dashboard)/employees/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/employees/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/employees/page": "action-browser",
+        "app/(dashboard)/employees/new/page": "action-browser"
+      }
+    },
+    "86ea23642b3ec8e81c23f8b49cb5c5693e9a108c": {
+      "workers": {
+        "app/(dashboard)/employees/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/employees/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/employees/page": "action-browser",
+        "app/(dashboard)/employees/new/page": "action-browser"
+      }
+    },
+    "c552fff3e6395b3da1d7b41a693cb3db167928a0": {
+      "workers": {
+        "app/(dashboard)/employees/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/employees/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/employees/page": "action-browser",
+        "app/(dashboard)/employees/new/page": "action-browser"
+      }
+    },
+    "d88f6689847dc557ef92ff9c4aa83bddbb8adc15": {
+      "workers": {
+        "app/(dashboard)/employees/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/employees/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cemployees%5C%5Cactions.ts%22%2C%5B%22createEmployee%22%2C%22updateEmployee%22%2C%22getNextEmployeeId%22%2C%22deleteEmployee%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/employees/page": "action-browser",
+        "app/(dashboard)/employees/new/page": "action-browser"
+      }
+    },
+    "2ffed174fd8a8bd2893847f32408d4768ae169e7": {
+      "workers": {
+        "app/(dashboard)/departments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cdepartments%5C%5Cactions.ts%22%2C%5B%22createDepartment%22%2C%22deleteDepartment%22%2C%22updateDepartment%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/departments/page": "action-browser"
+      }
+    },
+    "47a47c9e5eb66fdf8320e7f8bc8421ae40f6bbb8": {
+      "workers": {
+        "app/(dashboard)/departments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cdepartments%5C%5Cactions.ts%22%2C%5B%22createDepartment%22%2C%22deleteDepartment%22%2C%22updateDepartment%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/departments/page": "action-browser"
+      }
+    },
+    "538d8bd166a5503a6e30ad8aed994a64de13e5eb": {
+      "workers": {
+        "app/(dashboard)/departments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Csrc%5C%5Cfeatures%5C%5Cdepartments%5C%5Cactions.ts%22%2C%5B%22createDepartment%22%2C%22deleteDepartment%22%2C%22updateDepartment%22%5D%5D%2C%5B%22C%3A%5C%5CProjects%5C%5CEMS%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/departments/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "QiFibIKGvQ/pDGgbgQhqLcTd7jlwp8Yri5735CkN5Mk="
+}
