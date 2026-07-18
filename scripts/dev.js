@@ -73,15 +73,12 @@ async function main() {
     );
   }
 
-  const distDir = `.next-dev-${port}`;
-
   const nextBin = require.resolve("next/dist/bin/next");
   const child = spawn(process.execPath, [nextBin, "dev", "-p", String(port)], {
     stdio: "inherit",
     env: {
       ...process.env,
       PORT: String(port),
-      NEXT_DIST_DIR: distDir,
     },
   });
 
